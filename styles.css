@@ -1,0 +1,114 @@
+
+/* common styles */
+* {
+  padding: -28px;
+  margin: -2px;
+  text-align: center;
+}
+
+body {
+  width: 21vw;
+  height: 110vh;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: #222831; */
+  font-family: sans-serif;
+  text-align: center;
+ 
+  background-image: url(../images/img.jpg);
+  background-repeat: no-repeat;
+  background-size: 1332px;
+  background-size: auto;
+  background-color: rgb(231, 85, 85);
+}
+
+/* common styles end */
+
+
+/* calculator */
+.calculator {
+  width: 277px;
+  padding-bottom: -4px;
+  border-radius: 25px;
+  background-color: #000;
+  box-shadow: 11px 5px 8px -4px rgb(0 0 0 / 52%);
+  margin-left: 534px;
+  height: 120px;
+  margin-top: 105px;
+}
+/* calculator style end */
+
+
+
+/* display */
+.display {
+  width: 123%;
+  height: 112px;
+  border: 1px;
+  box-sizing: border-box;
+  padding: 40px;
+  font-size: 2rem;
+  background-color: rgb(231, 85, 85);
+  color: #000;
+  text-align: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-sizing: border-box;
+  border-radius: 15px;
+}
+
+/* display style end */
+
+
+/* row */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 576px;
+  /* border-radius: 40px; */
+}
+/* row style end */
+
+/* button */
+button {
+  width: 149px;
+  height: 52px;
+  border-radius: 98%;
+  border: 2px;
+  outline: 1px;
+  font-size: 1.5rem;
+  background-color: #222;
+  color: #fff;
+  margin: 10px;
+  padding: 13px;
+  /* padding-bottom: 34px; */
+  padding-inline: 17px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* button style end */
+
+/* operator */
+.operator {
+  background-color: rgb(231 85 85 / 59%);
+  color: #0c0c0c;
+}
+
+/* operator style end */
+
+.container
+{
+  /* background-color: tan; */
+  text-align: center;
+}
+
+.b_image
+{
+
+
+}
